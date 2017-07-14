@@ -34,6 +34,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <body>
 <!-- banner -->
@@ -77,10 +79,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                         Products <b class="caret"></b></a>
                                     <ul class="dropdown-menu agile_short_dropdown">
-                                        <li><a href="products.html">X-Fire</a></li>
-                                        <li><a href="products.html">Luminites</a></li>
-                                        <li><a href="products.html">Liquid Leak Detection</a></li>
-                                        <li><a href="products.html">Emergency Lighting System</a></li>
+                                        <li><a href="xfire.html">X-Fire</a></li>
+                                        <li><a href="liquid.html">Luminites</a></li>
+                                        <li><a href="liquid.html">Liquid Leak Detection</a></li>
+                                        <li><a href="emergency.html">Emergency Lighting System</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
@@ -205,66 +207,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //banner-bottom -->
 
 <!-- footer -->
-<div class="footer">
-    <div class="container">
-        <div class="agile_footer_copy">
-            <div class="w3agile_footer_grids">
-
-                <div class="col-md-4 w3agile_footer_grid">
-                    <h3>Contact Info</h3>
-                    <ul>
-                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block,
-                            <span>New York City.</span></li>
-                        <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a
-                                href="mailto:info@example.com">info@example.com</a></li>
-                        <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 w3agile_footer_grid">
-                    <h3>About Us</h3>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span>Excepteur sint occaecat cupidatat
-							non proident, sunt in culpa qui officia deserunt mollit.</span></p>
-                </div>
-
-                <div class="col-md-4 w3agile_footer_grid w3agile_footer_grid1">
-                    <h3>Navigation</h3>
-                    <ul>
-                        <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a
-                                href="services.html">Services</a></li>
-                        <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a
-                                href="projects.html">Projects</a></li>
-                        <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a
-                                href="icons.html">Web Icons</a></li>
-                        <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a
-                                href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-
-</div>
+<div w3-include-html="footer.html"></div>
 <!-- //footer -->
-<!-- copy-right -->
-<div class="w3_agileits_copy_right_social">
-    <div class="container">
-        <div class="col-md-6 agileits_w3layouts_copy_right">
-            <p>© 2017 Electrician. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-        </div>
-        <div class="col-md-6 w3_agile_copy_right">
-            <ul class="agileinfo_social_icons">
-                <li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="agileits_pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-</div>
-<!-- //copy-right -->
+
 <!-- jarallax -->
 <script src="js/jarallax.js"></script>
 <script src="js/SmoothScroll.min.js"></script>
@@ -274,7 +219,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         speed: 0.5,
         imgWidth: 1366,
         imgHeight: 768
-    })
+    });
+
+    w3.includeHTML();
 </script>
 <!-- //jarallax -->
 <script src="js/bootstrap.js"></script>
