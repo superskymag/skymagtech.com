@@ -80,7 +80,7 @@ html[xmlns] .slides {display: block;}
     position: absolute;
     left: 46%;
     margin-left: 0px;
-    bottom: -40%;
+    bottom: -20%;
 }
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-paging li a {
