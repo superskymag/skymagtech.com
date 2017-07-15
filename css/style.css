@@ -2774,3 +2774,7 @@ figure.effect-roxy h3 {
 	background-color: #d2d2d2;
 	padding: 20px;
 }
+
+.nav > li {
+	margin-bottom: 10px;
+}
