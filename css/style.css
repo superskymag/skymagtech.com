@@ -33,7 +33,7 @@ body {
 .banner {
     /*background: url(../images/bg.jpg) no-repeat 0px 0px;*/
     background-size: cover;
-    min-height: 750px;
+    min-height: 630px;
 }
 
 .agileinfo-dot {
@@ -49,19 +49,15 @@ body {
 }
 
 .banner-1 {
-    background: url(../images/1.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    min-height: 350px;
+    background-color: white;
+    /*min-height: 350px;*/
+    min-height: 0px;
 }
 
 .agileinfo-dot-1 {
-    background: url(../images/dott.png) repeat 0px 0px;
-    background-size: 3px;
-    -webkit-background-size: 3px;
-    -moz-background-size: 3px;
-    -o-background-size: 3px;
-    -ms-background-size: 3px;
-    min-height: 350px;
+    background-color: white;
+    /*min-height: 350px;*/
+    min-height: 0;
 
 }
 
@@ -1107,19 +1103,6 @@ h2.agileinfo_header {
     position: absolute;
     background: #fb5710;
     height: 2px;
-    content: '';
-}
-
-.wthree_head:before {
-    width: 11%;
-    bottom: 8%;
-    left: 44.5%;
-}
-
-.wthree_head:after {
-    width: 18%;
-    right: 41%;
-    bottom: 0%;
 }
 
 .agileits_w3layouts_para {
@@ -2543,11 +2526,11 @@ ul.agileinfo_social_icons {
 
 @media (max-width: 768px) {
     .agileinfo-dot-1 {
-        min-height: 300px;
+        min-height: 0;
     }
 
     .banner-1 {
-        min-height: 300px;
+        min-height: 0;
     }
 
     .footer {
@@ -2858,11 +2841,11 @@ ul.agileinfo_social_icons {
     }
 
     .agileinfo-dot-1 {
-        min-height: 250px;
+        min-height: 0;
     }
 
     .banner-1 {
-        min-height: 250px;
+        min-height: 0;
     }
 
     .w3agile_footer_grid h3 {
@@ -3359,4 +3342,8 @@ ul.agileinfo_social_icons {
     padding: 10px 0px 10px 10px;
     color: #CC0000;
     font-size: 22px;
+}
+
+li > a {
+    padding: 0px;
 }
