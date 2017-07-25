@@ -3347,3 +3347,9 @@ ul.agileinfo_social_icons {
 li > a {
     padding: 0px;
 }
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
