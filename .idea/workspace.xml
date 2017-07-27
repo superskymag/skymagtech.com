@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45e6af1a-fe93-46e3-bc95-6b030c7fbffa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.html" afterPath="$PROJECT_DIR$/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ibms.html" afterPath="$PROJECT_DIR$/ibms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="45e6af1a-fe93-46e3-bc95-6b030c7fbffa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -317,12 +312,12 @@
       <workItem from="1500735339864" duration="3866000" />
       <workItem from="1500804103477" duration="2890000" />
       <workItem from="1500968116626" duration="4607000" />
-      <workItem from="1501144344803" duration="2443000" />
+      <workItem from="1501144344803" duration="2544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57963000" />
+    <option name="totallyTimeSpent" value="58064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
