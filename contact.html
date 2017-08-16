@@ -43,7 +43,10 @@
 <!-- mail -->
 <div class="agileits_w3layouts_mail_grids">
     <div class="col-md-7 w3l_mail_left">
-        <div id="map"></div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2675.747166453142!2d73.85609719360332!3d18.480128824842065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eaa6dc5f6451%3A0x38091a8d3c4879ae!2sSKYMAG+TECHNOSERVE+PVT.+LTD.!5e0!3m2!1sen!2sin!4v1502870902294"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     </div>
     <div class="col-md-5 w3l_mail_right">
         <h3>Contact Info</h3>
@@ -197,19 +200,19 @@
             }, {"featureType": "water", "elementType": "all", "stylers": [{"color": "#91bde7"}, {"visibility": "on"}]}]
         };
 
-        // Get the HTML DOM element that will contain your map
-        // We are using a div with id="map" seen below in the <body>
-        var mapElement = document.getElementById('map');
-
-        // Create the Google Map using our element and options defined above
-        var map = new google.maps.Map(mapElement, mapOptions);
-
-        // Let's also add a marker while we're at it
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(40.6700, -73.9400),
-            map: map,
-            title: 'Snazzy!'
-        });
+//        // Get the HTML DOM element that will contain your map
+//        // We are using a div with id="map" seen below in the <body>
+//        var mapElement = document.getElementById('map');
+//
+//        // Create the Google Map using our element and options defined above
+//        var map = new google.maps.Map(mapElement, mapOptions);
+//
+//        // Let's also add a marker while we're at it
+//        var marker = new google.maps.Marker({
+//            position: new google.maps.LatLng(40.6700, -73.9400),
+//            map: map,
+//            title: 'Snazzy!'
+//        });
     }
 </script>
 <!-- //map -->
